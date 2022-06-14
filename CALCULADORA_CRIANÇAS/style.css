@@ -1,0 +1,376 @@
+*{
+    margin: 0px;
+}
+
+main{
+    height: 100vh;
+}
+
+
+/*Mensagem sweetalert2*/
+
+body {
+    font-family: 'Lexend';
+    font-weight: 600;
+    font-size: 18px;
+}
+
+/*Corpo de texto*/
+
+#menu{
+    display: flex;
+    width: 65%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    float: left;
+}
+
+/*Imagens*/
+
+#img1{
+    width: 168px;
+    height: 61px;
+    float: left;
+    object-fit: none;
+    padding: 17px 26px;
+}
+
+#img2{
+    width: 656px;
+    height: 160px;
+    left: 71px;
+    top: 144px;
+    border-radius: 16px;
+    object-fit: cover;
+    margin-top: 49.41px;
+}
+
+/*Cabeçalho*/
+
+header{
+    position: absolute;
+    width: 65%;
+    height: 94.59px;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    background: #FFFFFF;
+    float: left;
+    justify-content: space-evenly;
+    border-bottom: 1px solid #E6E8EB;
+    align-items: center;
+}
+
+.tiny_text{
+    height: 22px;
+    width: 290px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    float: left;
+    color:#808080;
+    align-items: center;
+    justify-content: flex-end;
+    border-left: 1px solid #E6E8EB;
+}
+
+/*Texto principal*/
+
+#space_menu{
+    float: left;
+    width: 625px;
+    height: 379px;
+    left: 87px;
+    top: 336px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+
+}
+
+#title_menu{
+    width: 625px;
+    height: 80px;
+    left: 87px;
+    top: 336px;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+#titulo{
+    display: flex;
+    width: 625px;
+    height: 80px;
+    left: 87px;
+    top: 336px;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    color: #494D4B;
+}
+
+.info_tiny_text{
+    height: 25px;
+    left: 88px;
+    top: 475px;
+    float: left;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    margin-right: 20px;
+    display: flex;
+    float: left;
+    color:#808080;
+
+}
+
+.elipse{
+    width: 10px;
+    height: 10px;
+    left: 208px;
+    top: 447px;
+    color: #808080;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#info_menu{
+    width: 100%;
+    height: 25px;
+    left: 88px;
+    top: 475px;
+    float: left;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 1px solid #E6E8EB;
+}
+
+#text_menu{
+    width: 624px;
+    height: 208px;
+    left: 87px;
+    top: 507px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #494D4B;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main_text{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+/*Jogo*/
+
+#game{
+    width: 35%;
+    height: 100%;;
+    float: left;
+    background-color: #8257E5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*Cabeçalho jogo*/
+
+#header_game{
+    height: 171px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid #ECEDF0;
+}
+
+#pontos{
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 31px;
+    color: #FFFFFF;
+}
+
+/*Botão*/
+
+#sortear{
+    box-sizing: border-box;
+    background: #5D5FEF;
+    border: 1px solid #5D5FEF;
+    border-radius: 12px;
+    padding: 13px 55px 12px 58px;
+    box-shadow: 0.1em 0.4em 1em -0.4em #2a2a6b;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#sortear:hover{
+    background-color: #9164FA;
+    border: 1px solid #9164FA;
+}
+
+/*Corpo jogo*/
+
+#body_game{
+    height: calc(100% - 171px);
+    width: 508px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.text_side_game{
+    height: 23px;
+    width: 100%;
+    display: flex;
+}
+
+.text_game{
+    height: 23px;
+    width: 100%;
+    padding-left: 72px;
+    padding-right: 259px;
+    border-radius: nullpx;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+/*Caixa dos números sorteados*/
+
+#numbers_sorter{
+    height: 64px;
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 31px;
+    color: #FFFFFF;
+}
+
+.box_numbers{
+    height: 64px;
+    width: 64px;
+    background: #9164FA;
+    mix-blend-mode: normal;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    height: 64px;
+    width: 232px;
+    border-radius: 16px;
+    background: #9164FA;
+    mix-blend-mode: normal;
+    border: 1px solid #9164FA;
+    display: flex;
+    text-align: center;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 31px;
+    color: #FFFFFF;
+}
+
+/*Botões*/
+
+#buttons_game{
+    height: 117px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 31px;
+    color: #FFFFFF;
+}
+
+#valid{
+    height: 51px;
+    width: 380px;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #04D361;
+    border-radius: 12px;
+    border: 1px solid #04D361;
+}
+
+#valid:hover{
+    background: #00ff40;
+    border: 1px solid #00ff40;
+}
+
+#novo_jogo{
+    height: 51px;
+    width: 380px;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #D34C6C;
+    border-radius: 12px;
+    border: 1px solid #D34C6C;
+}
+
+#novo_jogo:hover{
+    background: #e01f4d;
+    border: 1px solid #e01f4d;
+}

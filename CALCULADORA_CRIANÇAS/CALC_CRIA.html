@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Calcular</title>
+
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="sweetalert2/dist/sweetalert2.min.css">
+
+	<script src="sweetalert2/dist/sweetalert2.all.min.js"></script>
+	<script src="script.js" type="text/javascript"></script>
+
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Lexend:wght@600&display=swap');
+	</style>
+
+</head>
+<body>
+
+	<main>
+
+		<div id="menu">
+			<header>
+
+				<img id="img1" src="img/imagem1.png">
+				<p class="tiny_text">Ferramaenta de aprendizagem de calculo</p>
+				<p class="tiny_text">07/06/2022</p>
+
+			</header>
+
+			<img id="img2" src="img/imagem2.jpeg">
+
+			<div id="space_menu">
+
+				<section id="title_menu">
+
+					<h1 id="titulo">Para ser muito bom amanha é preciso começar a práticar hoje</h1>
+
+				</section>
+
+				<section id="info_menu">
+
+					<p width= "81px" class="info_tiny_text">Prof. Cleiton</p>
+					<p class="elipse">.</p>
+					<p width= "66px" class="info_tiny_text">07 Jun 22</p>
+					<p class="elipse">.</p>
+					<p width= "37px" class="info_tiny_text">16:40</p>
+
+				</section>
+
+				<section id="text_menu">
+
+					<p class="main_text">São nos primeiros anos escolares que as crianças aprendem os fundamentos da matemática, inclusive as quatro operações - soma, subtração, multiplicação e divisão. Qualquer dificuldade que a criança tenha nessa fase se refletirá por toda a sua vida escolar :(</p>
+					<p class="main_text">Aqui você e seu filho irão encontrar exercícios relacionados ao conteúdo ensinado nós primeiros anos escolares e buscara aperfeiçoar seu conhecimento nas operações básicas;</p>
+
+				</section>
+			</div>
+		</div>
+
+		<div id="game">
+			<section id="header_game">
+
+				<h1 id="pontos">Você tem 0 pontos</h1>
+				<button type="button" onclick="gameSortear()" id="sortear">Sortear Desafio</button>
+
+			</section>
+
+			<section id="body_game">
+				<div class="text_side_game"><p class="text_game">Quanto é:</p></div>
+
+					<div id="numbers_sorter">
+
+						<div class="box_numbers"><p id="nbm1"></p></div>
+						<div class="box_numbers"><p id="sinal"></p></div>
+						<div class="box_numbers"><p id="nbm2"></p></div>
+
+					</div>
+				<div class="text_side_game"><p class="text_game">Sua Resposta:</p></div>
+
+				<input id="inputResp" type="number" name="resposta" onkeydown="verifyButtonValid()" onkeyup="verifyButtonValid()" />
+
+				<div id="buttons_game">
+
+					<button onclick="gameValidar()" type="button" id="valid" disabled>Validar</button>
+					<button onclick="gameNovoJogo()" type="reset" id="novo_jogo">Novo Jogo</button>
+
+				</div>
+			</section>
+		</div>
+	</main>
+
+
+</body>
+</html>
